@@ -1,19 +1,13 @@
 {
   "name": "slack-oauth-sheets",
   "version": "1.0.0",
-  "type":"module",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@slack/bolt": "^4.4.0",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "googleapis": "^156.0.0"
+    "@slack/bolt": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "googleapis": "^119.0.0"
   }
 }
